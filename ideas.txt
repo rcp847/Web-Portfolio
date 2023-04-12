@@ -1,0 +1,36 @@
+/*Nav Bar Item */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #8956F1;
+}
+
+/*Nav Bar Items stay on the right */
+
+li{
+    float: right;
+}
+
+/*Style for attributes */
+li a{
+  display: block;
+  color: #241B35;
+  padding: 20px 20px;
+  text-decoration: none;
+}
+
+/*Hover function changes color */
+li a:hover {
+  background-color: #241B35;
+  color: white;
+}
+
+h1{
+    color:white;
+
+
+}
+
+

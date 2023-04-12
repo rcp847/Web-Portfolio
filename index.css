@@ -1,0 +1,116 @@
+/*Background styling*/
+body {
+    background-image: url("WebBack.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    line-height: 1.6;
+    height: 100vh;
+    overflow: hidden;
+}
+
+
+.vid-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+@media (min-aspect-ratio:16/9){
+    .backvid{
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio:16/9){
+    .backvid{
+        width: auto;
+        height: auto;
+    }
+}
+
+/*Overall page styling*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+/* Container styling*/
+.container{
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+
+/*Navbar styling*/
+.navbar{
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 100px;
+}
+
+/*Unordered list styling in navbar*/
+.navbar ul{
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: right;
+}
+
+/*List items in navbar*/
+.navbar ul li{
+    margin: 20px;
+    padding: 20px 20px;
+}
+
+/*Attributes in navbar*/
+.navbar ul li a {
+    text-decoration: none;
+    background: transparent;
+    outline: none;
+    color: #fff;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+/*Change color in nav when hovered over*/
+.navbar ul li a:hover {
+    color: #deacf5;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-item: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+
+section h1 {
+    font-size:60px;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+section p {
+    color: #fff;
+}
+
+#home h1{
+}
+
+#about{
+
+}
